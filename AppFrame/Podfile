@@ -1,0 +1,25 @@
+platform :ios, '8.0'  
+
+use_frameworks!  
+
+target 'AppFrame' do
+
+pod 'Alamofire' 
+
+pod 'MBProgressHUD'
+
+pod 'SwiftyJSON'
+
+pod 'SDWebImage'
+
+pod 'SDCycleScrollView'
+
+pod 'MJRefresh'
+
+pod 'ZYCornerRadius'
+
+pod 'Masonry'
+
+pod 'FMDB'
+
+end  

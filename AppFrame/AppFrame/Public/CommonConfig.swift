@@ -11,13 +11,9 @@ import Foundation
 let APPDELEGATE = UIApplication.shared.delegate as! AppDelegate
 
 //----------------------------网络请求配置------------------------
-let baseRequestUrl = "http://49.4.15.162/dyb-interface" //外网
+let baseRequestUrl = "e" //外网
 
-let baseImgUrl = "http://49.4.15.162/dyb"//展示图片
-
-//let baseRequestUrl = "http://10.0.0.116:8086/dyb-interface/" //请求接口
-//
-//let baseImgUrl = "http://10.0.0.116:8086/dyb/"//展示图片
+let baseImgUrl = ""//展示图片
 
 
 //----------------------------屏幕尺寸定义------------------------

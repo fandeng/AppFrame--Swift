@@ -18,6 +18,7 @@
 		6B7119102057A29900063983 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B71190F2057A29900063983 /* InformationViewController.swift */; };
 		6B7119122057A2BD00063983 /* ForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7119112057A2BD00063983 /* ForumViewController.swift */; };
 		6B7119142057A2E200063983 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7119132057A2E200063983 /* MineViewController.swift */; };
+		6B7119172057ADF000063983 /* FDCustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7119162057ADF000063983 /* FDCustomAlertView.swift */; };
 		C6791D0CD0B7987A2A2EF582 /* Pods_AppFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A58BED1E79149C298A3057 /* Pods_AppFrame.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		6B71190F2057A29900063983 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		6B7119112057A2BD00063983 /* ForumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumViewController.swift; sourceTree = "<group>"; };
 		6B7119132057A2E200063983 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		6B7119162057ADF000063983 /* FDCustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDCustomAlertView.swift; sourceTree = "<group>"; };
 		93D13B3326AD04B72B0A7900 /* Pods-AppFrame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppFrame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppFrame/Pods-AppFrame.debug.xcconfig"; sourceTree = "<group>"; };
 		F0A58BED1E79149C298A3057 /* Pods_AppFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -87,6 +89,7 @@
 		6B351A8D205766CE00967EA8 /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				6B7119152057ADB800063983 /* CustomUI */,
 				6B71190120577F6100063983 /* BaseViewController */,
 				6B7119042057803D00063983 /* CommonConfig.swift */,
 				6B7118FF20577F6100063983 /* CommonExtend */,
@@ -207,6 +210,14 @@
 				6B7119112057A2BD00063983 /* ForumViewController.swift */,
 			);
 			path = Forum;
+			sourceTree = "<group>";
+		};
+		6B7119152057ADB800063983 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				6B7119162057ADF000063983 /* FDCustomAlertView.swift */,
+			);
+			path = CustomUI;
 			sourceTree = "<group>";
 		};
 		7423F8071984186549FBB4B6 /* Frameworks */ = {
@@ -356,6 +367,7 @@
 				6B71190320577F6100063983 /* BaseViewController.swift in Sources */,
 				6B7119072057828900063983 /* UIColor+Extension.swift in Sources */,
 				6B7119102057A29900063983 /* InformationViewController.swift in Sources */,
+				6B7119172057ADF000063983 /* FDCustomAlertView.swift in Sources */,
 				6B7119122057A2BD00063983 /* ForumViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

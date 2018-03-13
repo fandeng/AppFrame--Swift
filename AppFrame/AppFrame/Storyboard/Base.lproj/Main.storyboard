@@ -20,7 +20,20 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vPO-Ag-zZI">
+                                <rect key="frame" x="132" y="318.5" width="110" height="30"/>
+                                <state key="normal" title="不同的alertView"/>
+                                <connections>
+                                    <action selector="clickAlertView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Feq-1q-eWX"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vPO-Ag-zZI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pnV-lg-gmv"/>
+                            <constraint firstItem="vPO-Ag-zZI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qem-u5-Ceo"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="首页" id="37d-p4-vc6"/>
                 </viewController>
@@ -110,6 +123,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="2Jn-0I-UbL" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bSk-Co-owE">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
